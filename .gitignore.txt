@@ -1,0 +1,105 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data and large files
+data/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+*.h5
+*.pth
+*.pt
+*.bin
+*.npy
+*.npz
+
+# Model directories (if very large, otherwise keep configs only)
+bert_local/
+bert_model/
+MultimodalTweetsClassification/bert_local/
+
+
+
+# Backup and reports
+backup/
+*.pdf
+
+# IDE/project settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+
+
+
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data (full folder inside project)
+notebooks/MultimodalTweetsClassification/data/
+
+# Ignore model directories fully
+notebooks/MultimodalTweetsClassification/bert_local/
+notebooks/MultimodalTweetsClassification/bert_model/
+
+# Backup and reports
+notebooks/MultimodalTweetsClassification/backup/
+*.pdf
+
+# Common large file types
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+*.h5
+*.pth
+*.pt
+*.bin
+*.npy
+*.npz
+
+# IDE/project settings
+.vscode/
+.idea/
+*.swp
+*.swo
